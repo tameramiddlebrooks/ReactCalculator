@@ -43,20 +43,24 @@ function Clear(){
   setOutput(Number(output)+Number(text));
     }
 
-    /* my valueUpdate function is self explanatory,
-    its' an event that will take place using the
-    onChange property, updating the text/value
-     when the user inputs a number.  */
-
+ /* the number that the user inputs as text 
+  is divided from the output */
 
      function Division () {
       setOutput(Number(output)/Number(text));
      }
+ 
+ /* the number that the user inputs as text 
+  is multiplied to the output */
 
      function Multiplication() {
       setOutput(Number(output)*Number(text));
      }
 
+ 
+    /* my valueUpdate function contains an event that will take place using the
+    onChange property, updating the text/value
+     when the user inputs a number.  */
 
     function valueUpdate(event){
      setText(event.target.value);
@@ -68,9 +72,8 @@ function Clear(){
       <div id="userInput">
       <input type="Number" placeholder="Enter a value!" onChange={valueUpdate} value={text}/>
       </div>
-
-{/* I went with number as my input type instead to prevent
-any errors from the user inputting something that's not a # */}
+                 {/* ^ I went with number as my input type instead to prevent
+                 any errors from the user inputting something that's not a # */}
    
       <div id = "buttons">
       <button onClick={Addition}>Add</button>
@@ -82,7 +85,7 @@ any errors from the user inputting something that's not a # */}
 
         <div id ="displayResults">
           <span>
-            Results go here! :
+            Results go here! : 
             </span>
             <div id="Result">{output} </div>
             </div>
