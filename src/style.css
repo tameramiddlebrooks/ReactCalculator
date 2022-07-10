@@ -1,0 +1,35 @@
+body {
+background-image: url(https://c.tenor.com/NXAoSLfkm14AAAAi/sparkle-sparkles.gif);
+background-color: rgb(232, 143, 235);
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    justify-content: center;
+    display: flex;
+}
+
+#userInput {
+    justify-content: center;
+    display: flex;
+}
+
+#displayResults {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
