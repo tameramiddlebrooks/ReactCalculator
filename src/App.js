@@ -77,10 +77,10 @@ function Clear(){
    
       <div id = "buttons">
       <button onClick={Addition}>Add</button>
-      <button onClick={Clear}>Clear</button>
       <button  onClick={Subtraction}>Subtract</button>
       <button onClick={Division}>Division</button>
       <button onClick={Multiplication}>Multiplication</button>
+      <button onClick={Clear}>Clear</button>
       </div>
 
         <div id ="displayResults">
